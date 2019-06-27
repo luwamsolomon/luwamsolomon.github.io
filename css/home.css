@@ -1,0 +1,15 @@
+h1{
+    font-family: italic;
+    color: rgb(65, 15, 15);
+}
+body{
+    text-align: left;
+    font-size:  20pt;
+    background-color: rgb(238, 230, 226);
+    margin-left: 100px;
+
+
+}
+a link{
+    color: rgb(21, 82, 51);
+}
