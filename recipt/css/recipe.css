@@ -27,6 +27,7 @@ h2{
     margin-left: 60px;
     margin-right: 60px;
     background-color: #F0F0F0;
+    background-attachment: fixed;
  }
  a link{
     color:#A4A400;
