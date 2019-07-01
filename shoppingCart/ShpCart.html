@@ -1,9 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <meta charset="utf-8" />
-    <meta name="description" content="Learn HTML" />
-</header>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Learn HTML"/>
+    <link href="css/cartlayout.css" rel="stylesheet" type="text/css" >
+    <title>Shopping cart Ckeck out</title>
+</head>
+<body>
+      <div class="banr"> <h1>Shopping Cart</h1></div> 
+    <!-- <img src="images/pic1.jpg" alt="yummy pie image" width="250" height="250"/> -->
+ <div class="top">
+<form action="url" method="GET">
+        <h3>Personal Info:</h3> <br/>
+    <div class ="firstdv"> 
+  <label for="firstName"> First Name </label>
+   <input type="text"  id ="firstName"  value="fistName" placeholder="FirstName"/>
+  <label for="lastName" > Last Name </label>
+   <input type="text"  id="lastName"   value="LastName" placeholder="LastName"/><br/><br/>
+   phone Number<input type="text" value="phonenumber" placeholder="(xxx)xxx-xxxx"/> 
+   email Address<input type="text" value="email" />
+   </div>
+</form>
+<form action ="url" method="get">
+        <h3> Shipping Address:</h3><br/>
+<div class="secddv">
+Address <input type="text" value="Shipping " placeholder="Enter Address"/>
+Apt<input type="text" value="Address " placeholder="Apt"/><br/>
+City <input type="text" value ="City" placeholder="city"/>
+State<select name = "states">
+    <option>CA</option>
+    <option>IL</option>
+    <option>DC</option>
+    <option>Tx</option>
+    <option>Ar</option>
+</select><br/>
+ZipCode<input type="text" value="ZipCode"  pattern="" placeholder="ZipCode"/>
+Country<input type="text" value="State" placeholder="Country"/>
+</div>
+</form>
+<form action ="url" method="get">
+        <h3>Billing Address:</h3><br/><br/>
+        <div class="thrddv">
+        Address <input type="text" value="Billing " placeholder="Enter Address"/>
+        Apt<input type="text" value="Address " placeholder="Apt"/><br/>
+        City <input type="text" value ="City" placeholder="city"/>
+        State<select name = "states">
+            <option selected>CA</option>
+            <option>IL</option>
+            <option>DC</option>
+            <option>Tx</option>
+            <option>Ar</option>
+        </select><br/>
+        ZipCode<input type="text" value="ZipCode"  pattern="" placeholder="ZipCode"/>
+        Country<input type="text" value="State" placeholder="Country"/>
+        </div>
+        </form>
+        <form action="url" method="GET">
+            <div>
+            <h3>Payment Info</h3><br/><br/>
+            <fieldset>
+                <legend>Pament type</legend>
+              <label>  <input type="radio" name="acc" value="Visa">Visa </label>
+              <label> <input type="radio" name="acc" value="American Express" checked> American Express</label>
+              <label><input type="radio" name="acc" value="MasterCard"> MasterCard </label>
+            </fieldset><br/>
+            CardNumber<input type="text" value="CardNumber " placeholder="xxxx xxxx xxxx xxxxx"/><br/>
+            Expire Date <input type="text" value="Expire Date " placeholder="yyyy/mm/dd"/>
+            Security Code<input type="text" value="Security Code" placeholder="xxx"/>
+            <div><br/><br/>
+                Press Contiune to make Payment or Cancel?     
+                <label>  <input type="radio" name="conform" value="Contiune">Contiune</label>
+                <label>  <input type="radio" name="conform" value="Cancel">Cancel</label>
+            </div>
+      
+        </div>
+        </form>
+           
+        
+</div>
+<div class="banr">
+      <div class="btmbkg">
+                <a class="pos" href="validate-html.php"><img src="images/w3c-html.png" alt="html validator"/> </a>
+                 <a class="pos" href="validate-css.php"><img src="images/w3c-css.png" alt="css validator"/></a> 
+     </div> 
+     </div>
+</body>
 
 
 </html>
