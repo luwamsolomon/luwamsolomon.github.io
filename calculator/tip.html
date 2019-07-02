@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Learn HTML"/>
+		<link href="tip.css" type="text/css" rel="stylesheet" />
+		<script src="tip.js" ></script>
+		<title>Tip Calculator</title>
+	</head>
+	<body>
+		<div class = topbrd>
+		<h1> Tip Calculator</h1> 
+			<img id="logo" src="calc.jpg" alt="calculator image"/>
+	
+		<div>
+			<label><input id="subtotal" type="text" /> $ Subtotal</label>
+		</div>
+
+		<div>
+			<label><input id="tip" type="text" /> % Tip</label>
+		</div>
+
+		<div>
+			<button id="btn"  onclick="calcTip();">Calculate Tip</button>
+		</div>
+
+		<hr />
+		<div class = "botm">
+			<h2>Your total:  <span id="total">$0.00</span></h2> 
+		</div>
+	</div>
+	<div id="validator">
+			<a href="https://validator.w3.org/check/referer">
+				<img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator"/>
+			  </a>
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="html validator"/>
+			 </a>
+	
+	</div>
+
+	</body>
+</html>
