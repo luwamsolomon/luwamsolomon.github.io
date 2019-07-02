@@ -21,7 +21,7 @@ h1{
     top:0px;
     margin-top: 0px;
     padding: 0px;
-    margin: auto;`
+    margin: auto;
     
     }
 .top{
@@ -29,7 +29,9 @@ h1{
     border-width: 2px;
     border-color:#f2f2f2;
     border-radius: 20px;
-    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
     background-color :#f2f2f2;
     font-size: 26px;
     overflow: auto;
@@ -59,10 +61,10 @@ h3{
 }
 input[type=text],select{
     width: 27%;
-    padding:12px,20px;
+    padding:12px 20px;
     margin:15px 10px;
     display: inline-block;
-    border-radius: 1px soloid #ccc;
+    border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 4px;
     height: 30px;
