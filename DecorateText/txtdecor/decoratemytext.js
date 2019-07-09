@@ -3,7 +3,7 @@ var intervalId;
 
   function changeSize(){
      var x = window.getComputedStyle(document.getElementById('text')).fontSize;
-     reSize= parseInt(x)+2+'px';
+     reSize= parseInt(x)+ 2 +'px';
      document.getElementById('text').style.fontSize =reSize;
 }
 
